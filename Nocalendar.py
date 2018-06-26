@@ -4,7 +4,7 @@ Shows basic usage of the Gmail API.
 Lists the user's Gmail labels.
 """
 from __future__ import print_function
-from apiclient.discovery import build
+from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
 import Clases
