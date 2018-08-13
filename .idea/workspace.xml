@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="668a91ee-850e-49aa-9704-9cb1a0e9bcfe" name="Default" comment="" />
+    <list default="true" id="668a91ee-850e-49aa-9704-9cb1a0e9bcfe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nocalendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nocalendar.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,8 @@
       <file leaf-file-name="Clases.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="1012">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -23,8 +27,8 @@
       <file leaf-file-name="Nocalendar.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nocalendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="453">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,6 +59,21 @@
       <find>special_ingredients&quot;</find>
       <find>beers</find>
       <find>related_name</find>
+      <find>etiq</find>
+      <find>sinEtiquetasN</find>
+      <find>salto</find>
+      <find>sinEtiquetas</find>
+      <find>cadenas</find>
+      <find>apps</find>
+      <find>tax</find>
+      <find>admin</find>
+      <find>url</find>
+      <find>context</find>
+      <find>{%</find>
+      <find>objects.first</find>
+      <find>objects.</find>
+      <find>pillow</find>
+      <find>filter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,7 +89,6 @@
         <option value="$PROJECT_DIR$/../HelloWorld/HelloWorld.py" />
         <option value="$PROJECT_DIR$/../HelloWorld/quickstart.py" />
         <option value="$PROJECT_DIR$/get-pip.py" />
-        <option value="$PROJECT_DIR$/Clases.py" />
         <option value="$PROJECT_DIR$/../HelloWorld/ejercicios.py" />
         <option value="$PROJECT_DIR$/../HelloWorld/ejercicios2.py" />
         <option value="$PROJECT_DIR$/../HelloWorld/ejercicios3.py" />
@@ -78,27 +96,49 @@
         <option value="$PROJECT_DIR$/../HelloWorld/ejercicios5.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/manage.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/views.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/base.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/static/css/starter.css" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/base.html" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/navbar.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/urls.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/utils.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/requirements.txt" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/settings.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/settings.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/models.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/urls.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/settings.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/core/models.py" />
         <option value="$PROJECT_DIR$/Nocalendar.py" />
+        <option value="$PROJECT_DIR$/Clases.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/core/models.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/models.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/__init__.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/admin.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/admin.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/models.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beer_detail.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beer_list.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/urls.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/base.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/registration/logged_out.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/static/css/starter-template.css" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/mixins.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/beer_list.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/company/company_form.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/company/company_form.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/company/company_detail.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_detail.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_list.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/requirements.txt" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/settings.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/urls.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/forms.py" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_create_with_beers.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_form.html" />
+        <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
+    <option name="x" value="-50" />
+    <option name="y" value="-30" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -143,15 +183,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beers" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beer" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beer_warehouse" />
       <recent name="C:\Users\cesar\PycharmProjects\nocalendar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beers" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beer_warehouse" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\templates" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\static\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,18 +332,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17184402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20687376" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47330728" side_tool="true" weight="0.32413793" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.4871117" side_tool="true" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5128883" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49934897" weight="0.32827586" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5266927" weight="0.32478634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5261071" weight="0.32478634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49934897" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49934897" weight="0.31623933" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -309,7 +351,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
@@ -345,7 +387,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -357,107 +399,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/utils.py">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beer_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#230#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/quickstart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nocalendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/quickstart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nocalendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/email/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="396">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -575,13 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get-pip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="20648" column="10" selection-start-line="20648" selection-start-column="10" selection-end-line="20648" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/get-pip.py" />
     <entry file="file://$USER_HOME$/Envs/beer_warehouse/Lib/site-packages/django/core/servers/basehttp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -589,82 +528,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/static/css/starter-template.css">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/migrations/0002_auto_20180701_1253.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/beer_warehouse/Lib/site-packages/django/urls/resolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers.html">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="252">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/views.py">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/registration/logged_out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/static/css/starter-template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/mixins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="604">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/core/models.py">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/beer_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_create_with_beers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beer_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -675,50 +717,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#230#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Clases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nocalendar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="453">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
         </state>
       </provider>
     </entry>

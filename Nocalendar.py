@@ -49,12 +49,17 @@ else:
 
         # Asunto del correo:  mail['payload']['headers'][32]['value']
         #print(mail['payload']['headers'][32]['value'])
-
+        asunto=mail['payload']['headers'][32]['value']
         mails.append(mail)
         msg_str = base64.urlsafe_b64decode(mail['payload']['parts'][1]['parts'][0]['body']['data']).decode('UTF-8')
         if mails.index(mail) == 0:
             #print(msg_str)
-            cadenas = Clases.Correo.sinEtiquetas(msg_str)
+            cadena = Clases.Correo.sinEtiquetasNew(msg_str)
+            sistema = "Sist: " + Clases.CPUEvent.textoEvento(cadena, "Sistema: ", ""+chr(13))
+            print(sistema)
+            modulo = "Mod: " + Clases.CPUEvent.textoEvento(cadena, "Modulo: ", ""+chr(13))
+            print(modulo)
+            #print("Cadenas: " + cadenas)
             #for cad in cadenas:
                 #print(cad)
             break
