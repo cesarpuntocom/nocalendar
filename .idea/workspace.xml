@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="668a91ee-850e-49aa-9704-9cb1a0e9bcfe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ArgentinaGDC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArgentinaGDI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPUEvents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CalendarInteract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Correo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DescargaCorreos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auxiliar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nocalendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nocalendar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nocalendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nocalendar.py" afterDir="false" />
@@ -15,20 +25,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Clases.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clases.py">
+      <file leaf-file-name="Nocalendar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nocalendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="e#116#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nocalendar.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Nocalendar.py">
+      <file leaf-file-name="CalendarInteract.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalendarInteract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+            <state relative-caret-position="704">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DescargaCorreos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DescargaCorreos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_helpers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/googleapiclient/_helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2706">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPUEvents.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CPUEvents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgentinaGDC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArgentinaGDC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgentinaGDI.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArgentinaGDI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,24 +125,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>quickstart</find>
-      <find>ListMessagesMatchingQuery</find>
-      <find>list</find>
-      <find>a caballo</find>
-      <find>textoe</find>
-      <find>sett</find>
-      <find>templ</find>
-      <find>template</find>
-      <find>static</find>
-      <find>templates</find>
-      <find>blob</find>
       <find>special_ingredients&quot;</find>
       <find>beers</find>
       <find>related_name</find>
@@ -74,27 +150,31 @@
       <find>objects.</find>
       <find>pillow</find>
       <find>filter</find>
+      <find>replace_all</find>
+      <find>mails</find>
+      <find>mensajes_new</find>
+      <find>mensajes_f</find>
+      <find>print</find>
+      <find>clos</find>
+      <find>sin_etiquetas(</find>
+      <find>scope</find>
+      <find>dict</find>
+      <find>coun</find>
+      <find>count</find>
+      <find>cpu_ev</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="cesarpuntocom" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="nocalendar" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nocalendar.py" />
-        <option value="$PROJECT_DIR$/gmail-quickstart.py" />
-        <option value="$PROJECT_DIR$/calendar.py" />
-        <option value="$PROJECT_DIR$/quickstart.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/quickstart.py" />
-        <option value="$PROJECT_DIR$/get-pip.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/ejercicios.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/ejercicios2.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/ejercicios3.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/ejercicios4.py" />
-        <option value="$PROJECT_DIR$/../HelloWorld/ejercicios5.py" />
-        <option value="$PROJECT_DIR$/../Beer_Warehouse/manage.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/base.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers.html" />
@@ -103,8 +183,6 @@
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/utils.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/settings.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/settings.py" />
-        <option value="$PROJECT_DIR$/Nocalendar.py" />
-        <option value="$PROJECT_DIR$/Clases.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/core/models.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/models.py" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/__init__.py" />
@@ -133,6 +211,21 @@
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_create_with_beers.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beers/company_form.html" />
         <option value="$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/views.py" />
+        <option value="$PROJECT_DIR$/InteractGoogle.py" />
+        <option value="$PROJECT_DIR$/auxiliar.py" />
+        <option value="$PROJECT_DIR$/correos.dat" />
+        <option value="$PROJECT_DIR$/../HelloWorld/hockeyApp.py" />
+        <option value="$PROJECT_DIR$/../NovumAPPs/GoogleSheets.py" />
+        <option value="$PROJECT_DIR$/../NovumAPPs/hockeyApp.py" />
+        <option value="$PROJECT_DIR$/Clases.py" />
+        <option value="$PROJECT_DIR$/Correo.py" />
+        <option value="$PROJECT_DIR$/Evento.py" />
+        <option value="$PROJECT_DIR$/ArgentinaGDI.py" />
+        <option value="$PROJECT_DIR$/CalendarInteract.py" />
+        <option value="$PROJECT_DIR$/CPUEvents.py" />
+        <option value="$PROJECT_DIR$/ArgentinaGDC.py" />
+        <option value="$PROJECT_DIR$/Nocalendar.py" />
+        <option value="$PROJECT_DIR$/DescargaCorreos.py" />
       </list>
     </option>
   </component>
@@ -155,6 +248,10 @@
             <path>
               <item name="nocalendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="nocalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nocalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nocalendar" type="b2602c69:ProjectViewProjectNode" />
@@ -182,19 +279,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cesar\PycharmProjects\NovumAPPs" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beers" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse" />
+      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beers" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beer" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates" />
       <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beer_warehouse" />
       <recent name="C:\Users\cesar\PycharmProjects\nocalendar" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates\beers" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beers\templates" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse" />
-      <recent name="C:\Users\cesar\PycharmProjects\Beer_Warehouse\beer_warehouse\beer_warehouse" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,7 +307,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Nocalendar">
-    <configuration name="Clases" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CalendarInteract" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="nocalendar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,9 +319,27 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clases.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalendarInteract.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="GoogleSheets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NovumAPPs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NovumAPPs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NovumAPPs/GoogleSheets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -246,7 +361,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ejercicios" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hockeyApp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NovumAPPs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NovumAPPs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NovumAPPs/hockeyApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="hockeyApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,43 +391,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HelloWorld/ejercicios.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ejercicios2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HelloWorld" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloWorld" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HelloWorld/ejercicios2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="get-pip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="nocalendar" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get-pip.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cesar\PycharmProjects\NovumAPPs\hockeyApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,18 +399,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Nocalendar" />
-      <item itemvalue="Python.get-pip" />
-      <item itemvalue="Python.Clases" />
-      <item itemvalue="Python.ejercicios" />
-      <item itemvalue="Python.ejercicios2" />
+      <item itemvalue="Python.hockeyApp" />
+      <item itemvalue="Python.GoogleSheets" />
+      <item itemvalue="Python.hockeyApp (1)" />
+      <item itemvalue="Python.CalendarInteract" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Nocalendar" />
-        <item itemvalue="Python.ejercicios2" />
-        <item itemvalue="Python.ejercicios" />
-        <item itemvalue="Python.Clases" />
-        <item itemvalue="Python.Clases" />
+        <item itemvalue="Python.CalendarInteract" />
+        <item itemvalue="Python.hockeyApp (1)" />
+        <item itemvalue="Python.GoogleSheets" />
+        <item itemvalue="Python.hockeyApp" />
       </list>
     </recent_temporary>
   </component>
@@ -328,21 +425,30 @@
       <option name="presentableId" value="Default" />
       <updated>1523648366681</updated>
     </task>
+    <task id="LOCAL-00001" summary="ahí va">
+      <created>1534163331552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534163331553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20687376" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.4871117" side_tool="true" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5128883" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49934897" weight="0.32827586" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5261071" weight="0.32478634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18572372" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49306014" side_tool="true" visible="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5115664" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48843357" weight="0.32763532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5069398" weight="0.32478634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49934897" weight="0.31623933" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49504295" weight="0.31623933" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49834764" weight="0.3988604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,6 +484,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ahí va" />
+    <option name="LAST_COMMIT_MESSAGE" value="ahí va" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -399,163 +509,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/templates/beer_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/email/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/email/feedparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/http/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/googleapiclient/discovery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendar.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/googleapiclient/http.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="840" selection-start-line="840" selection-end-line="840" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/email/_parseaddr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/email/_policybase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/quickstart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloWorld/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get-pip.py" />
-    <entry file="file://$USER_HOME$/Envs/beer_warehouse/Lib/site-packages/django/core/servers/basehttp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beer_warehouse/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/beers/migrations/0002_auto_20180701_1253.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/beer_warehouse/Lib/site-packages/django/urls/resolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -724,17 +677,202 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/oauth2client/_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5390">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/oauth2client/clientsecrets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/oauth2client/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8558">
+          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/ejercicios5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/HelloWorld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloWorld/quickstart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NovumAPPs/hockeyApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NovumAPPs/GoogleSheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auxiliar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correos.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="382">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/googleapiclient/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="841" selection-start-line="841" selection-end-line="841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Correo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/googleapiclient/_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgentinaGDC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgentinaGDI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPUEvents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nocalendar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="242">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#116#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalendarInteract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DescargaCorreos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

@@ -15,17 +15,20 @@ class CPUEvent:
         #print(mail)
         fin = 0
         cadena = ""
-        indiceTag = str.find(mail, tag, indiceTag)
-        fin = str.find(mail, hasta, fin)
-        cadenaCh = ['']
+        aux = ""
+        cadenaux = ""
+        indiceTag = mail.find(tag) + len(tag)
+        fin = mail.find(hasta, indiceTag)
+        cadena = mail[indiceTag:fin]
+        #print("Cadena = " + cadena)
         for i in mail:
-            cadenaCh.append(i)
-        print(str(mail)[indiceTag:fin])
+            aux = cadenaux + i
+            cadenaux = aux
+        #print(str(mail)[indiceTag:fin])
         if indiceTag != -1 & fin != -1:
             cadena = mail[indiceTag:fin]
         #print(cadena)
         return cadena
-    #print("Aqui: " + textoEvento("Sistema: Legados coliving y su madre a caballo \n Lunes al sol", "Sistema: ","\n"))
 
 
 class Correo:
@@ -59,6 +62,8 @@ class Correo:
         cadena = ""
         tag = False
         for i in mail:
+            #print(i)
+            #print(ord(i))
             c = i
             if ord(i) > 31 or ord(i) == 13 or ord(i) == 10:
                 if c == '<':
@@ -75,17 +80,3 @@ class Correo:
         return cadena
 
 
-    def sinEtiquetas(mail):
-        import re
-        Correo.replace_all("<br>", "\r", mail)
-        cadena=['']
-        etiquetas = re.findall("<.*>", mail)
-        for eti in etiquetas:
-            print(eti)
-        for cad in etiquetas:
-            cadena.append(Correo.replace_all(cad, "", mail))
-        #for cad in cadenas:
-        #  Correo.remove_all(cad, mail)
-        resultado=str(cadena)
-        print("Cadena: " + resultado)
-        return resultado
