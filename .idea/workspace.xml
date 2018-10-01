@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="668a91ee-850e-49aa-9704-9cb1a0e9bcfe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ArgentinaGDC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArgentinaGDI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPUEvents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CalendarInteract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Correo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DescargaCorreos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Evento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auxiliar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nocalendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nocalendar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArgentinaGDC.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArgentinaGDC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarInteract.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarInteract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DescargaCorreos.py" beforeDir="false" afterPath="$PROJECT_DIR$/DescargaCorreos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nocalendar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nocalendar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="Nocalendar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nocalendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="124">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#116#145#0" expanded="true" />
               </folding>
@@ -37,11 +29,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CalendarInteract.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalendarInteract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="536">
+              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -52,8 +53,8 @@
       <file leaf-file-name="DescargaCorreos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DescargaCorreos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+            <state relative-caret-position="115">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -66,7 +67,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -87,8 +88,8 @@
       <file leaf-file-name="CPUEvents.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CPUEvents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="506">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArgentinaGDC.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArgentinaGDC.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ArgentinaGDC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="74">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -132,8 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>special_ingredients&quot;</find>
-      <find>beers</find>
       <find>related_name</find>
       <find>etiq</find>
       <find>sinEtiquetasN</find>
@@ -162,6 +161,8 @@
       <find>coun</find>
       <find>count</find>
       <find>cpu_ev</find>
+      <find>recibir</find>
+      <find>Correo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,8 +222,8 @@
         <option value="$PROJECT_DIR$/Correo.py" />
         <option value="$PROJECT_DIR$/Evento.py" />
         <option value="$PROJECT_DIR$/ArgentinaGDI.py" />
-        <option value="$PROJECT_DIR$/CalendarInteract.py" />
         <option value="$PROJECT_DIR$/CPUEvents.py" />
+        <option value="$PROJECT_DIR$/CalendarInteract.py" />
         <option value="$PROJECT_DIR$/ArgentinaGDC.py" />
         <option value="$PROJECT_DIR$/Nocalendar.py" />
         <option value="$PROJECT_DIR$/DescargaCorreos.py" />
@@ -432,23 +433,29 @@
       <option name="project" value="LOCAL" />
       <updated>1534163331553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualización con CPUEvents generados a partir de los correos desde la clase que descarga correos (pdte cambiarlo)">
+      <created>1538379123016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538379123016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18572372" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18572372" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49306014" side_tool="true" visible="true" weight="0.32478634" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5115664" weight="0.32905984" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48843357" weight="0.32763532" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5069398" weight="0.32478634" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.504957" side_tool="true" visible="true" weight="0.3988604" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.51024455" weight="0.32905984" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48777264" weight="0.32763532" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5042961" weight="0.32478634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49504295" weight="0.31623933" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49306014" weight="0.31623933" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49834764" weight="0.3988604" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49504295" visible="true" weight="0.3988604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -481,15 +488,69 @@
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49934897" weight="0.32827586" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ahí va" />
-    <option name="LAST_COMMIT_MESSAGE" value="ahí va" />
+    <MESSAGE value="Actualización con CPUEvents generados a partir de los correos desde la clase que descarga correos (pdte cambiarlo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización con CPUEvents generados a partir de los correos desde la clase que descarga correos (pdte cambiarlo)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Nocalendar.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Nocalendar.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DescargaCorreos.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArgentinaGDC.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ArgentinaGDC.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -497,7 +558,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -505,17 +566,12 @@
         <watch expression="message" />
         <watch expression="message.__len__()" />
         <watch expression="mail['payload']['parts'][1]" />
+        <watch expression="messages" />
+        <watch expression="dicc['summary']" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Beer_Warehouse/beer_warehouse/bars/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -803,62 +859,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArgentinaGDC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArgentinaGDI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CPUEvents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nocalendar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#116#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalendarInteract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DescargaCorreos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="81" column="46" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -873,6 +879,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalendarInteract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPUEvents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DescargaCorreos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nocalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#116#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArgentinaGDC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

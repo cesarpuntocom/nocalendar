@@ -11,25 +11,26 @@ class ArgentinaGDC(CPUEvents):
     calendario = "tuenti.com_u1g9maijb37jb9i4m55m4el0u8@group.calendar.google.com"
 
     def __init__(self, dicc):
-        self._descrip = dicc['description']
-        self._titulo = dicc['summary']
-        self._ev_id = dicc['id']
-        if dicc['fecha_recibido'] == "":
-            self._fecha_recibido = self.texto_evento(self.descripcion, "Fecha de recepcion", "\r\n")
-        if dicc['location'] == "":
-            self._n_notif = self.texto_evento(self._titulo, "Notificacion Nro ", " ")
-        if dicc['start'] == dict(datetime=""):
-            self._fecha_inicio = self.texto_evento(self.descripcion,"Fecha y Hora de Inicio: ", "\r\n")
-        if dicc['end'] == dict(datetime=""):
-            aux = self.texto_evento(self.descripcion, "Fecha y Hora de Fin: ", "\r\n")
-            if aux == "":
-                aux = self.texto_evento(self.descripcion, "Fecha y Hora Estimada de Solucion: ", "\r\n")
-            self._fecha_fin = aux
-        print("Se invoca constructor de subclase con parámetros")
+        if dicc != {}:
+            self._descrip = dicc['description']
+            self._titulo = dicc['summary']
+            self._ev_id = dicc['id']
+            if dicc['fecha_recibido'] == "":
+                self._fecha_recibido = self.texto_evento(self.descripcion, "Fecha de recepcion", "\r\n")
+            if dicc['location'] == "":
+                self._n_notif = self.texto_evento(self._titulo, "Notificacion Nro ", " ")
+            if dicc['start'] == dict(datetime=""):
+                self._fecha_inicio = self.texto_evento(self.descripcion,"Fecha y Hora de Inicio: ", "\r\n")
+            if dicc['end'] == dict(datetime=""):
+                aux = self.texto_evento(self.descripcion, "Fecha y Hora de Fin: ", "\r\n")
+                if aux == "":
+                    aux = self.texto_evento(self.descripcion, "Fecha y Hora Estimada de Solucion: ", "\r\n")
+                self._fecha_fin = aux
+            print("Se invoca constructor de subclase con parámetros")
 
-    def __init__(self):
-        self._titulo = ""
-        print("Se invoca constructor de subclase sin parámetros")
+    #def __init__(self):
+    #    self._titulo = ""
+    #    print("Se invoca constructor de subclase sin parámetros")
 
     @property
     def correo(self):

@@ -45,8 +45,8 @@ def recibir_ids_correos(cpu_ev):
     # Mails:
     try:
         response = service.users().messages().list(userId='me', q='is:unread label:' + cpu_ev.carpeta_origen).execute()
-        print("Carpeta origen -> " + cpu_ev.carpeta_origen)
-        print("Mensajes en carpeta origen -> " + str(response.values()))
+        #print("Carpeta origen -> " + cpu_ev.carpeta_origen)
+        #print("Mensajes en carpeta origen -> " + str(response.values()))
         messages = []
         if 'messages' in response:
             messages.extend(response['messages'])
@@ -75,8 +75,7 @@ def recibir_ids_correos(cpu_ev):
     #mess.append(messages[0])
     #mess.append(messages[1])
 
-def recibir_correos(messages):
-    mails = []
+def recibir_correos(message):
     SCOPES = 'https://mail.google.com/'
     store = file.Storage('credentials.json')
     # fich_mensajes = open("correos.dat", "r+")
@@ -89,23 +88,22 @@ def recibir_correos(messages):
         flow = client.flow_from_clientsecrets('client_secret.json', SCOPES)
         creds = tools.run_flow(flow, store)
     service = build('gmail', 'v1', http=creds.authorize(Http()))
-    if not messages:
+    if not message:
         print('No messages found.')
     else:
-        for message in messages:
-            mail = service.users().messages().get(userId='me', id=message['id']).execute()
-            # Asunto del correo:  mail['payload']['headers'][32]['value']
-            asunto = mail['payload']['headers'][32]['value']
-            remitente = mail['payload']['headers'][38]['value']
-            msg_str = base64.urlsafe_b64decode(mail['payload']['parts'][1]['parts'][0]['body']['data']).decode('UTF-8')
-            descripcion = sin_etiquetas(msg_str)
-            fecha_recibido = mail['payload']['headers'][29]['value']
-            #fecha_float = datetime.datetime.strptime(fecha_recibido, "%a, %b %d %Y %H:%M:s %z").strftime("%f")
-            correo = dict(description=descripcion, summary=asunto, fecha_recibido=fecha_recibido, remitente=remitente,
-                          start=dict(datetime=""), end=dict(datetime=""), location="", id="")
-            # Instanciamos cada correo recibido como un objeto de tipo CPUEvents, al que pasamos un diccionario
-            corr = CPUEvents.CPUEvents(correo)
-            mails.append(corr)
+        mail = service.users().messages().get(userId='me', id=message['id']).execute()
+        # Asunto del correo:  mail['payload']['headers'][32]['value']
+        asunto = mail['payload']['headers'][32]['value']
+        remitente = mail['payload']['headers'][38]['value']
+        msg_str = base64.urlsafe_b64decode(mail['payload']['parts'][1]['parts'][0]['body']['data']).decode('UTF-8')
+        descripcion = sin_etiquetas(msg_str)
+        fecha_recibido = mail['payload']['headers'][29]['value']
+        #fecha_float = datetime.datetime.strptime(fecha_recibido, "%a, %b %d %Y %H:%M:s %z").strftime("%f")
+        correo = dict(description=descripcion, summary=asunto, fecha_recibido=fecha_recibido, remitente=remitente,
+                      start=dict(datetime=""), end=dict(datetime=""), location="", id="")
+        # Instanciamos cada correo recibido como un objeto de tipo CPUEvents, al que pasamos un diccionario
+        #corr = CPUEvents.CPUEvents(correo)
+
 
             # Eliminamos la etiqueta de No leído del correo y lo movemos a la carpeta de destino de los ya procesados
             #body = dict(addLabelIds=cpu_ev.etiqueta_carpeta_destino,
@@ -122,4 +120,4 @@ def recibir_correos(messages):
                 #modulo = "Mod: " + Clases.CPUEvent.textoEvento(cadena, "Modulo: ", chr(13))
 
                 #break
-    return mails
+    return correo

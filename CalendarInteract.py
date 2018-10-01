@@ -21,10 +21,9 @@ if not creds or creds.invalid:
 service = build('calendar', 'v3', http=creds.authorize(Http()))
 nowDate = datetime.datetime.utcnow()
 now = nowDate.isoformat() + 'Z'  # 'Z' indicates UTC time
-timemin = datetime.datetime(nowDate.date().year, nowDate.date().month,
-                                nowDate.date().day - 10, nowDate.time().hour,
-                                nowDate.time().minute, nowDate.time().second,
-                                nowDate.time().microsecond).isoformat() + 'Z'
+timemin = datetime.datetime.toordinal(nowDate)
+timemin -= 10
+timemin_dat = datetime.datetime.fromordinal(timemin).isoformat() + 'Z'
 
 def recibirEvents(cpu_ev):
     eventsResult = service.events().list(
