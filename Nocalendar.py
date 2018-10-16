@@ -68,6 +68,7 @@ for ev in events_gdc_sort:
     for l in events_gdc_unic:
         if ev.notif_num == l.notif_num:
             esta = True
+    
     if not esta:
         events_gdc_unic.append(ev)
     else:
@@ -84,6 +85,8 @@ for ev in events_gdi_sort:
     for l in events_gdi_unic:
         if ev.notif_num == l.notif_num:
             esta = True
+            break
+
     if not esta:
         events_gdi_unic.append(ev)
     else:
@@ -97,7 +100,9 @@ for ev in events_gdc_delete:
 
 for ev in events_gdc_unic:
     if ev.titulo != '':
-        CalendarInteract.add_event(ev)
+        if ev._ev_id == '':
+            CalendarInteract.add_event(ev)
+        #print("Evento GDC a subir: " + ev.titulo)
 
 for ev in events_gdi_delete:
     if ev._ev_id != '':
@@ -105,4 +110,14 @@ for ev in events_gdi_delete:
 
 for ev in events_gdi_unic:
     if ev.titulo != '':
-        CalendarInteract.add_event(ev)
+        if ev._ev_id == '':
+            CalendarInteract.add_event(ev)
+        #print("Evento GDI a subir: " + ev.titulo)
+
+#for ev in events_gdi_delete:
+#    if ev._ev_id != '':
+#        CalendarInteract.delete_events(ev)
+
+#for ev in events_gdc_delete:
+#    if ev._ev_id != '':
+#        CalendarInteract.delete_events(ev)
