@@ -13,6 +13,7 @@ class CPUEvents:
     fecha_inicio = ""
     fecha_fin = ""
     fecha_recibido = ""
+    _fecha_recibido = ""
     ev_id = ""
 
     def __init__(self):
@@ -22,7 +23,6 @@ class CPUEvents:
         etiqueta_carpeta_destino = ""
         remitente = ""
         calendario = ""
-        print("Se invoca constructor sin parámetros")
 
     def __init__(self, dic):
         self._carpeta_mail = ""
@@ -37,23 +37,26 @@ class CPUEvents:
         self._fecha_fin = ""
         self._fecha_recibido = ""
         self._ev_id = ""
-        print("Se invoca constructor con parámetros")
 
-    def texto_evento(mail, tag, hasta):
-        cadenaux = ""
-        indiceTag = mail.find(tag) + len(tag)
-        fin = mail.find(hasta, indiceTag)
-        cadena = mail[indiceTag:fin]
-        for i in mail:
-            aux = cadenaux + i
-            cadenaux = aux
-        if indiceTag != -1 & fin != -1:
-            cadena = mail[indiceTag:fin]
-        return cadena
+    def texto_evento(self, mail, tag, *args):
+        index_tag = mail.find(tag)
+        if index_tag >= 0:
+            index_tag_b = index_tag + len(tag)
+            if len(args) > 0:
+                cadena = mail[index_tag_b:mail.find(args[0], index_tag_b)]
+            else:
+                cadena = mail[index_tag_b:]
+            return cadena
+        else:
+            return ""
 
     @property
     def descripcion(self):
         return self._descripcion
+
+    @property
+    def fecha_recibido_dat(self):
+        return self._fecha_recibido_dat
 
     @property
     def fecha_recibido(self):
@@ -69,30 +72,9 @@ class CPUEvents:
     def end_time_correo(self, correo):
         return self.texto_evento(correo, "", "")
 
-
-"""
-    def __init__(self, event):
-        if isinstance(event, dict):
-            self._descrip = event['description']
-            self._titulo = event['summary']
-            self._fecha_inicio = event['start']['datetime']
-            self._fecha_fin = event['end']['datetime']
-            self._fecha_recibido = self.textoEvento(event['description'], "Fecha de recepcion: ", "\r\n")
-            self._n_notif = event['location']
-            self._ev_id = event['id']
-            
-        elif isinstance(event, Correo):
-            self._descrip = self.textoEvento(event.descripcion)
-            self._titulo = event['summary']
-            self._fecha_inicio = event['start']['datetime']
-            self._fecha_fin = event['end']['datetime']
-            self._fecha_recibido = event.fecha_recibido
-            self._n_notif = event['location']
-            self._ev_id = event['id']
-    
-    
-"""
-
+    def rreplace(self, s, old, new, occurrence):
+        li = s.rsplit(old, occurrence)
+        return new.join(li)
 
 
 # calendarId = "tuenti.com_u1g9maijb37jb9i4m55m4el0u8@group.calendar.google.com"
